@@ -21,7 +21,7 @@ WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.9
 SELECT last_name 
 FROM customer 
 WHERE first_name = 'Mary';
-**Last_name : Smith**
+Last_name : Smith
 ~~~
 #### Film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 ~~~sql

@@ -9,7 +9,7 @@ FROM film;
 ~~~sql
 SELECT * 
 FROM film 
-WHERE length > 60 and length < 75;
+WHERE length > 60 AND length < 75;
 ~~~
 #### Film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.
 ~~~sql
@@ -28,3 +28,4 @@ Last_name : Smith
 SELECT * 
 FROM film 
 WHERE NOT(rental_rate = 4.99 OR rental_rate = 2.99) AND NOT length > 50;
+~~~
